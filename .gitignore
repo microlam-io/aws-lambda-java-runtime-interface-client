@@ -1,1 +1,6 @@
 compile-flags.txt
+/target/
+.classpath
+.project
+.settings/
+

@@ -22,6 +22,15 @@
   <scm>
     <url>https://github.com/aws/aws-lambda-java-libs.git</url>
   </scm>
+
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub microlam-io Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/microlam-io/aws-lambda-java-runtime-interface-client</url>
+   </repository>
+</distributionManagement>
+
   <developers>
     <developer>
       <name>AWS Lambda team</name>
@@ -112,6 +121,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
+		<version>3.2.0</version>
         <configuration>
           <archive>
             <manifest>
