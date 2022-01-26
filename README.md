@@ -1,5 +1,7 @@
 ## AWS Lambda Java Runtime Interface Client
 
+![Maven Central](https://img.shields.io/maven-central/v/io.microlam/aws-lambda-java-runtime-interface-client)
+
 We have open-sourced a set of software packages, Runtime Interface Clients (RIC), that implement the Lambda
  [Runtime API](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html), allowing you to seamlessly extend your preferred
   base images to be Lambda compatible.
